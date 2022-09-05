@@ -26,38 +26,38 @@
 
 .container-sm {
     position: static;
-    left: 50px;
-    top: 30px;
+    left: 3.125rem;
+    top: 1.875rem;
 
 }
 
 
 
 .question_first {
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 1em;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     line-height: 1em;
     text-align: center;
     color: #2B3554;
     letter-spacing: 0.1em;
     font-family: font_1;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 
 .video {
-    width: 606px;
-    height: 341px;
+    width: 37.875rem;
+    height: 21.313rem;
     object-fit: cover;
     object-position: 50% 50%;
     box-sizing: border-box;
     background: rgb(250, 250, 250);
     position: relative;
-    margin: 0px 0px 30px calc((100% - 980px) * 0.5);
-    left: 187px;
+    margin: 0rem 0rem 1.875rem calc((100% - 61.25rem) * 0.5);
+    left: 11.688rem;
     grid-area: 3 / 1 / 4 / 2;
     justify-self: start;
     align-self: start;
@@ -68,16 +68,14 @@
     border: 0.5mm solid black;
     color: white;
     text-align: center;
-    font-size: 24px;
-    margin: 4px 2px;
+    font-size: 1.5rem;
+    margin: 0.25rem 0.125rem;
     font-family: font_2;
     font-weight: bold;
-    height: 45px;
-    width: 450px;
+    height: 2.813rem;
+    width: 28.125rem;
     white-space: nowrap;
-    margin-bottom: 43px;
-
-
+    margin-bottom: 2.688rem;
 }
 
 #button:hover {
@@ -87,19 +85,15 @@
 }
 
 .header {
-   
-    
-    padding: 20px;
+    padding: 1.25rem;
     position: sticky;
-    margin-left: 158px;
-    margin-bottom: 20px;
-    
-    
-
+    margin-left: 9.875rem;
+    margin-bottom: 1.25rem;
 }
+
 #logo{
-    width: 234px;
-    height: 96px;
+    width: 14.625rem;
+    height: 6rem;
     object-fit: cover;
 }
 
@@ -121,21 +115,19 @@
 
 .col {
     font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
     font-weight: bolder;
-    padding-top: 70px;
+    padding-top: 4.375rem;
     color: #2B3554;
-    padding-bottom: 70px;
-    
-
+    padding-bottom: 4.375rem;
 }
 
 .p1, .p2, .p3 {
     display: flex;
-    width: 285px;
+    width: 17.813rem;
     color: #2B3554;
 }
 
@@ -143,110 +135,108 @@
 .p1:before {
     content: url('/static/cloning/img/iconHouse.png');
     padding: auto;
-
 }
 
 .p2:before {
     content: url('/static/cloning/img/iconHuman.png');
     padding: auto;
-
 }
 
 
 .p3:before {
     content: url('/static/cloning/img/iconDocs.png');
     padding: auto;
-
 }
 
 .para{
     letter-spacing:0.03em; 
-    font-size: 17px; 
+    font-size: 1.063rem; 
     line-height: 1.3em;
     font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
     font-weight: 100; 
     color: #2B3554;   
     display: flex;
-    width:265px; 
+    width:16.563rem; 
     background: transparent;
-    padding-left: 65px;
+    padding-left: 4.063rem;
 }
 
 #pone{
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 #pthree{
-    padding-left: 50px;
+    padding-left: 3.125rem;
 }
 
 #chairs{
-    height: 235px; 
+    height: 14.688rem; 
     object-fit: cover; 
     object-position: 0% 50%;
     --bg-overlay-color: rgb(34,34,34);
     --bg-gradient: none;
     --fill-layer-image-opacity: 0.15;
     width: 100%;
-    --column-width: 980px;
-    --column-flex: 980;
+    --column-width: 61.25rem;
+    --column-flex: 61.25rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) {
     .question_first {
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 1em;
         text-align: center;
         font-weight: bold;
         color: #2B3554;
         letter-spacing: 0.1em;
         font-family: font_1;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
     .header {
    
         align-self: center;
-        padding: 20px;
+        padding: 1.25rem;
         position: sticky;
-        margin-left: 50px;
-        margin-bottom: 20px;
+        margin-left: 3.125rem;
+        margin-bottom: 1.25rem;
         
     
     }
 
     #logo{
-        width: 238px;
-        height: 98px;
+        width: 14.875rem;
+        height: 6.125rem;
         object-fit: cover;
+        
     }
 
     .video{
-        width: 320px;
-        height: 195px;
+        width: 20rem;
+        height: 12.188rem;
         top: 50%;
         left: 50%;
-        margin-left: -150px;
+        margin-left: -9.375rem;
 
         background: rgb(250, 250, 250);
-        margin-bottom: 15px;
+        margin-bottom: 0.938rem;
         
     }
 
     #button {
         background-color: #FF9900;
         border: 0.5mm solid black;
-        width: 320px;
-        height: 55px;
+        width: 20rem;
+        height: 3.438rem;
         color: white;
         text-align: center;
-        font-size: 15px;
-        margin: 4px 2px;
+        font-size: 0.938rem;
+        margin: 0.25rem 0.125rem;
         font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;;
         font-weight: bold;
-        margin-right: -25px;
+        margin-right: -1.563rem;
         white-space: nowrap;
-        margin-bottom: 25px;
-    
+        margin-bottom: 1.563rem;
+        
     
     }
 
@@ -257,7 +247,6 @@
         background-position:center;
         background-size: cover;
         color: rgb(250, 250, 250);
-        
     }
     
     #Content {
@@ -268,26 +257,22 @@
 
     .col {
         font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: normal;
         letter-spacing: normal;
         text-align: left;
         font-weight: bolder;
-        padding-top: 20px;
+        padding-top: 1.25rem;
         color: #2B3554;
-    
-        
-    
     }
 
     .p1, .p2, .p3 {
         display: flex;
-        width: 320px;
+        width: 20rem;
         color: #2B3554;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: normal;
         letter-spacing: normal;
-        
     }
     
     
@@ -312,23 +297,23 @@
     
     .para{
         letter-spacing:0.03em; 
-        font-size: 20px; 
+        font-size: 1.25rem; 
         line-height: 1.3em;
         font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
         font-weight: 100; 
         color: #2B3554;   
         display: flex;
-        width:320px; 
+        width:20rem; 
         background: transparent;
 
     }
     
     #pone{
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
     
     #pthree{
-        padding-left: 50px;
+        padding-left: 3.125rem;
     }
 
     #chairs{
@@ -338,5 +323,3 @@
         object-position: 0% 50%;
     }
 }    
-
-
