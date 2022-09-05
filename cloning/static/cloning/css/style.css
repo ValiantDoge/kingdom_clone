@@ -170,7 +170,7 @@
 }
 
 #chairs{
-    height: 14.688rem; 
+    height: 10rem; 
     object-fit: cover; 
     object-position: 0% 50%;
     --bg-overlay-color: rgb(34,34,34);
@@ -179,6 +179,56 @@
     width: 100%;
     --column-width: 61.25rem;
     --column-flex: 61.25rem;
+
+}
+
+.quest2{
+
+    font-size: 2rem;
+    padding-top: 4rem;
+}
+
+#button2{
+    background-color: #FF9900;
+    border: 0.5mm solid black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0.25rem 0.125rem;
+    font-family: font_2;
+    font-weight: bold;
+    height: 2.813rem;
+    width: 18.125rem;
+    white-space: nowrap;
+    margin-bottom: 2.688rem;
+  
+
+}
+#button2:hover {
+    background-image: none;
+    transition: var(--trans1, border-color .4s ease 0s, background-color .4s ease 0s);
+    background-color: #2B3554;
+}
+.chairs{
+    font-family: font_1;
+
+    width: 100%;
+    height: 14.688rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    letter-spacing: 0.313rem;
+    font-size: 1.25rem;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.951),rgba(34, 34, 34, 0.74)),url('/static/cloning/img/readyBack.jpg');
+    justify-content: center;
+    align-items: center;
+}
+
+#butdiv{
+
+    padding-top: 2rem;
 }
 
 @media screen and (max-width: 37.5rem) {
