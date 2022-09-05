@@ -1,0 +1,375 @@
+@font-face {
+    font-family: "font_1";
+    src: url("https://static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/c5749443-93da-4592-b794-42f28d62ef72.woff") format('woff');
+
+}
+
+@font-face {
+    font-family: "font_2";
+    src: url("https://static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/4021a3b9-f782-438b-aeb4-c008109a8b64.woff") format('woff');
+
+}
+
+@font-face {
+    font-family: "font_3";
+    src: url("https://static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/03805817-4611-4dbc-8c65-0f73031c3973.woff") format('woff');
+
+}
+
+@font-face {
+    font-family: 'font_4';
+    src: url("https://static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/03805817-4611-4dbc-8c65-0f73031c3973.woff") format('woff');
+    font-stretch: condensed;
+}
+
+
+
+.container-sm {
+    position: static;
+    left: 3.125rem;
+    top: 1.875rem;
+
+}
+
+
+
+.question_first {
+    font-size: 2.5rem;
+    line-height: 1em;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1em;
+    text-align: center;
+    color: #2B3554;
+    letter-spacing: 0.1em;
+    font-family: font_1;
+    margin-bottom: 1.25rem;
+}
+
+
+.video {
+    width: 37.875rem;
+    height: 21.313rem;
+    object-fit: cover;
+    object-position: 50% 50%;
+    box-sizing: border-box;
+    background: rgb(250, 250, 250);
+    position: relative;
+    margin: 0rem 0rem 1.875rem calc((100% - 61.25rem) * 0.5);
+    left: 11.688rem;
+    grid-area: 3 / 1 / 4 / 2;
+    justify-self: start;
+    align-self: start;
+}
+
+#button {
+    background-color: #FF9900;
+    border: 0.5mm solid black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0.25rem 0.125rem;
+    font-family: font_2;
+    font-weight: bold;
+    height: 2.813rem;
+    width: 28.125rem;
+    white-space: nowrap;
+    margin-bottom: 2.688rem;
+}
+
+#button:hover {
+    background-image: none;
+    transition: var(--trans1, border-color .4s ease 0s, background-color .4s ease 0s);
+    background-color: #2B3554;
+}
+
+.header {
+    padding: 1.25rem;
+    position: sticky;
+    margin-left: 9.875rem;
+    margin-bottom: 1.25rem;
+}
+
+#logo{
+    width: 14.625rem;
+    height: 6rem;
+    object-fit: cover;
+}
+
+#Wrapper {
+    background: url('/static/cloning/img/roomClearL.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: unset;
+    background-size: cover;
+    color: rgb(250, 250, 250);
+    
+}
+
+#Content {
+    background-color: rgba(255, 255, 255, 0.18);
+    width: 100%;
+    height: 100%;
+}
+
+.col {
+    font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+    font-size: 1.25rem;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-weight: bolder;
+    padding-top: 4.375rem;
+    color: #2B3554;
+    padding-bottom: 4.375rem;
+}
+
+.p1, .p2, .p3 {
+    display: flex;
+    width: 17.813rem;
+    color: #2B3554;
+}
+
+
+.p1:before {
+    content: url('/static/cloning/img/iconHouse.png');
+    padding: auto;
+}
+
+.p2:before {
+    content: url('/static/cloning/img/iconHuman.png');
+    padding: auto;
+}
+
+
+.p3:before {
+    content: url('/static/cloning/img/iconDocs.png');
+    padding: auto;
+}
+
+.para{
+    letter-spacing:0.03em; 
+    font-size: 1.063rem; 
+    line-height: 1.3em;
+    font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    font-weight: 100; 
+    color: #2B3554;   
+    display: flex;
+    width:16.563rem; 
+    background: transparent;
+    padding-left: 4.063rem;
+}
+
+#pone{
+    padding-top: 1.25rem;
+}
+
+#pthree{
+    padding-left: 3.125rem;
+}
+
+#chairs{
+    height: 10rem; 
+    object-fit: cover; 
+    object-position: 0% 50%;
+    --bg-overlay-color: rgb(34,34,34);
+    --bg-gradient: none;
+    --fill-layer-image-opacity: 0.15;
+    width: 100%;
+    --column-width: 61.25rem;
+    --column-flex: 61.25rem;
+
+}
+
+.quest2{
+
+    font-size: 2rem;
+    padding-top: 4rem;
+}
+
+#button2{
+    background-color: #FF9900;
+    border: 0.5mm solid black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0.25rem 0.125rem;
+    font-family: font_2;
+    font-weight: bold;
+    height: 2.813rem;
+    width: 18.125rem;
+    white-space: nowrap;
+    margin-bottom: 2.688rem;
+  
+
+}
+#button2:hover {
+    background-image: none;
+    transition: var(--trans1, border-color .4s ease 0s, background-color .4s ease 0s);
+    background-color: #2B3554;
+}
+.chairs{
+    font-family: font_1;
+
+    width: 100%;
+    height: 14.688rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    letter-spacing: 0.313rem;
+    font-size: 1.25rem;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.951),rgba(34, 34, 34, 0.74)),url('/static/cloning/img/readyBack.jpg');
+    justify-content: center;
+    align-items: center;
+}
+
+#butdiv{
+
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 37.5rem) {
+    .question_first {
+        font-size: 1.25rem;
+        line-height: 1em;
+        text-align: center;
+        font-weight: bold;
+        color: #2B3554;
+        letter-spacing: 0.1em;
+        font-family: font_1;
+        margin-bottom: 1.25rem;
+    }
+    .header {
+   
+        align-self: center;
+        padding: 1.25rem;
+        position: sticky;
+        margin-left: 3.125rem;
+        margin-bottom: 1.25rem;
+        
+    
+    }
+
+    #logo{
+        width: 14.875rem;
+        height: 6.125rem;
+        object-fit: cover;
+        
+    }
+
+    .video{
+        width: 20rem;
+        height: 12.188rem;
+        top: 50%;
+        left: 50%;
+        margin-left: -9.375rem;
+
+        background: rgb(250, 250, 250);
+        margin-bottom: 0.938rem;
+        
+    }
+
+    #button {
+        background-color: #FF9900;
+        border: 0.5mm solid black;
+        width: 20rem;
+        height: 3.438rem;
+        color: white;
+        text-align: center;
+        font-size: 0.938rem;
+        margin: 0.25rem 0.125rem;
+        font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;;
+        font-weight: bold;
+        margin-right: -1.563rem;
+        white-space: nowrap;
+        margin-bottom: 1.563rem;
+        
+    
+    }
+
+    #Wrapper {
+        background: url('/static/cloning/img/roomClearL.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position:center;
+        background-size: cover;
+        color: rgb(250, 250, 250);
+    }
+    
+    #Content {
+        background-color: rgba(255, 255, 255, 0.18);
+        width: 100%;
+        height: 100%;
+    }
+
+    .col {
+        font-family: helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif;
+        font-size: 1.25rem;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        font-weight: bolder;
+        padding-top: 1.25rem;
+        color: #2B3554;
+    }
+
+    .p1, .p2, .p3 {
+        display: flex;
+        width: 20rem;
+        color: #2B3554;
+        font-size: 1.25rem;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    
+    
+    .p1:before {
+        content: url('/static/cloning/img/iconHouse.png');
+        padding: auto;
+    
+    }
+    
+    .p2:before {
+        content: url('/static/cloning/img/iconHuman.png');
+        padding: auto;
+    
+    }
+    
+    
+    .p3:before {
+        content: url('/static/cloning/img/iconDocs.png');
+        padding: auto;
+    
+    }
+    
+    .para{
+        letter-spacing:0.03em; 
+        font-size: 1.25rem; 
+        line-height: 1.3em;
+        font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+        font-weight: 100; 
+        color: #2B3554;   
+        display: flex;
+        width:20rem; 
+        background: transparent;
+
+    }
+    
+    #pone{
+        padding-top: 1.25rem;
+    }
+    
+    #pthree{
+        padding-left: 3.125rem;
+    }
+
+    #chairs{
+        width: 100%;
+        height: max-content;
+        object-fit: cover;
+        object-position: 0% 50%;
+    }
+}    
