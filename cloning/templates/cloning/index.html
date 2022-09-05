@@ -19,7 +19,7 @@
                 </h1>
 
                 <div class="video">
-
+                    <img id="videoimg" src="{% static 'cloning/img/logo-behind-video.jpg' %}" alt="logo" >
                 </div>
 
 
@@ -59,9 +59,15 @@
         </div>
         </div>
 
-    <div>
-        <img id='chairs' src="{% static 'cloning/img/readyBack.jpg' %}" alt="">
-    </div>
+        <div class="chairs container-fluid" style="padding: 0; padding-top: 2.5rem;" >
+            <div>
+               <center><span id="quest2">Ready To Get Your Property Rented?</span></center>
+               <div class="d-grid gap-2 col-6 mx-auto justify-content-center" style="padding-top: 0.5rem">
+                   <button id="contactusbutton" type="button"> <span>CONTACT US!</span> </button>
+   
+            </div>
+                      
+       </div>
 
 </body>
 {% endblock content %}

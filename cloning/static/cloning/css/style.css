@@ -63,6 +63,13 @@
     align-self: start;
 }
 
+#videoimg{
+    width: 37.875rem; 
+    height: 21.313rem; 
+    object-fit: cover; 
+    object-position: 50% 50%;
+}
+
 #button {
     background-color: #FF9900;
     border: 0.5mm solid black;
@@ -78,10 +85,31 @@
     margin-bottom: 2.688rem;
 }
 
-#button:hover {
+#contactusbutton {
+    background-color: #FF9900;
+    border: 0.5mm solid black;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0.25rem 0.125rem;
+    font-family: font_2;
+    font-weight: bold;
+    height: 2.5rem;
+    width:  20.313rem;
+    white-space: nowrap;
+    margin-bottom: 2.688rem;
+}
+
+#button:hover, #contactusbutton:hover {
     background-image: none;
     transition: var(--trans1, border-color .4s ease 0s, background-color .4s ease 0s);
     background-color: #2B3554;
+}
+
+#quest2{
+    letter-spacing: 0.1em;
+    font-size: 2.1rem;
+    font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
 }
 
 .header {
@@ -169,17 +197,27 @@
     padding-left: 3.125rem;
 }
 
-#chairs{
-    height: 14.688rem; 
-    object-fit: cover; 
-    object-position: 0% 50%;
-    --bg-overlay-color: rgb(34,34,34);
-    --bg-gradient: none;
-    --fill-layer-image-opacity: 0.15;
+
+.chairs{
     width: 100%;
-    --column-width: 61.25rem;
-    --column-flex: 61.25rem;
+    height: 14.688rem;
+    display: flex;
+    color: white;
+    letter-spacing: 0.313rem;
+    font-size: 1.25rem;
+    font-family: font_1;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+    object-position: 0% 50%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.818),rgba(34, 34, 34, 0.818)),url('/static/cloning/img/readyBack.jpg');
 }
+
+
+
+
 
 @media screen and (max-width: 37.5rem) {
     .question_first {
@@ -220,6 +258,13 @@
         background: rgb(250, 250, 250);
         margin-bottom: 0.938rem;
         
+    }
+
+    #videoimg{
+        width: 20rem; 
+        height: 12.188rem; 
+        object-fit: cover; 
+        object-position: 50% 50%;
     }
 
     #button {
@@ -316,10 +361,47 @@
         padding-left: 3.125rem;
     }
 
-    #chairs{
+    .chairs{
         width: 100%;
-        height: max-content;
-        object-fit: cover;
-        object-position: 0% 50%;
+        height: 100%;
+        display: flex;
+        color: white;
+        font-family: font_1;
+        background-position:center;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(rgba(34, 34, 34, 0.818),rgba(34, 34, 34, 0.818)),url('/static/cloning/img/readyBack.jpg');
     }
+
+
+    #contactusbutton {
+        background-color: #FF9900;
+        border: 0.5mm solid black;
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+        margin: 0.25rem 0.125rem;
+        font-family: font_2;
+        font-weight: bold;
+        height: 2.500rem;
+        width:  12rem;
+        white-space: nowrap;
+        margin-bottom: 2.688rem;
+    }
+    
+    #button:hover, #contactusbutton:hover {
+        background-image: none;
+        transition: var(--trans1, border-color .4s ease 0s, background-color .4s ease 0s);
+        background-color: #2B3554;
+    }
+    
+    #quest2{
+        letter-spacing: 0.01em;
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    }
+
+    
 }    
