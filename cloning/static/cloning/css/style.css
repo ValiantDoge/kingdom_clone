@@ -229,7 +229,100 @@
 #butdiv{
 
     padding-top: 2rem;
+
 }
+
+
+
+
+/* 
+-----------------------------------
+------------------------------ */
+
+/* 
+first half */
+
+
+
+
+/* pic----------------------- */
+
+#secPart{
+
+    padding: 0;
+    background-color: white;
+}
+
+#secHalf1{
+
+    height: 26.375rem;
+}
+#secHalfpic{
+    
+  background-image: url('/static/cloning/img/whitesofa2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ----------------------- */
+
+
+
+/* text------------------- */
+#secHalfText{
+    background: rgba(255, 255, 255, 0.808);
+    /* align-items: center;
+    text-align: center; */
+    
+}
+
+#tenant1{
+
+    color: #2B3554;
+
+ font-family: font_1;
+ 
+    font-size: 2.7rem;
+    /* padding-left: 14rem;
+    padding-top: 2rem; */
+
+}
+#tenant2{
+
+    color: #2B3554;
+
+ font-family: font_1;
+ 
+    font-size: 2.7rem;
+    /* padding-left: 14rem; */
+}
+
+
+.txtp1{
+
+    color: #2B3554;
+font-family: font_1;
+
+}
+
+.txtp1:before{
+ content: url('/static/cloning/img/check2.png');
+
+}
+
+
+
+#secHalfpic2{
+
+    background-image: url('/static/cloning/img/sofabrown.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 
+------------------------------
+-------------------------- */
+
 
 @media screen and (max-width: 37.5rem) {
     .question_first {
@@ -371,5 +464,56 @@
         height: max-content;
         object-fit: cover;
         object-position: 0% 50%;
+    }
+
+
+    .quest2{
+
+        font-size: 2rem;
+        padding-top: 4rem;
+        text-align: center;
+    }
+    
+    #button2{
+        background-color: #FF9900;
+        border: 0.5mm solid black;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 0.25rem 0.125rem;
+        font-family: font_2;
+        font-weight: bold;
+        height: 2.813rem;
+        width: 18.125rem;
+        white-space: nowrap;
+        margin-bottom: 2.688rem;
+      
+    
+    }
+    #button2:hover {
+        background-image: none;
+        transition: var(--trans1, border-color .4s ease 0s, background-color .4s ease 0s);
+        background-color: #2B3554;
+    }
+    .chairs{
+        font-family: font_1;
+    
+        width: 100%;
+        height: 14.688rem;
+        display: flex;
+        align-items: center;
+        color: white;
+        letter-spacing: 0.313rem;
+        font-size: 1.25rem;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(34, 34, 34, 0.951),rgba(34, 34, 34, 0.74)),url('/static/cloning/img/readyBack.jpg');
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #butdiv{
+    
+        padding-top: 2rem;
     }
 }    
