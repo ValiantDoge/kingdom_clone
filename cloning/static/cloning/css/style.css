@@ -214,8 +214,178 @@
     align-items: center;
     background-image: linear-gradient(rgba(34, 34, 34, 0.818),rgba(34, 34, 34, 0.818)),url('/static/cloning/img/readyBack.jpg');
 }
+/* 6/9 */
 
 
+.thankfooter{
+    padding-top: 3.125rem;
+    display: block;
+    height: 19.082rem;
+    background-color: rgba(43, 53, 84, 0.9);;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#thankquote1{
+    font-family: font_3;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+#thankquote2{
+    font-family: font_3; 
+    font-style: italic; 
+    font-size:1.4rem; 
+    font-weight: bold; 
+    padding-top: 0.625rem;
+    padding-bottom: 0.938rem;
+}
+
+.footer{
+    display: flex;
+    font-size: 1rem;
+    font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    line-height:normal;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    height: 6.313rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.about-us-bg{
+    display: flex;
+    background-image: url("/static/cloning/img/about-usbg.jpg");
+    width: 100%;
+    height: 38.188rem;
+    
+}
+
+hr.line{
+    border-top: 0.175rem solid black;
+    line-height: 0;
+
+}
+
+
+
+.about-us-box {
+    display: block;
+    width: 24.813rem;
+    height:27.6rem;
+    background: rgb(250, 250, 250);
+    justify-content: center;
+    align-items:center;
+    margin: 5rem 0rem 1.875rem calc((100% - 49.50rem) * 0.5);
+    opacity: 88%;
+    color: #292929;
+    font-family: font_2;
+    text-align: left;
+    letter-spacing: normal;
+    line-height: normal ;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-top: 2rem;
+    
+}
+
+#aboutuspara{
+    font-size:1.188rem ;
+    line-height:2.5em;
+    font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;;
+
+}
+
+/* 
+-----------------------------------
+------------------------------ */
+
+/* 
+first half */
+
+
+
+
+/* pic----------------------- */
+
+#secPart{
+
+    padding: 0;
+    background-color: white;
+}
+
+#secHalf1{
+
+    height: 26.375rem;
+}
+#secHalfpic{
+    
+  background-image: url('/static/cloning/img/whitesofa2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ----------------------- */
+
+
+
+/* text------------------- */
+#secHalfText{
+    background: rgba(255, 255, 255, 0.808);
+    /* align-items: center;
+    text-align: center; */
+    
+}
+
+#tenant1{
+
+    color: #2B3554;
+
+ font-family: font_1;
+ 
+    font-size: 2rem;
+    /* padding-left: 14rem;
+    padding-top: 2rem; */
+
+}
+#tenant2{
+
+    color: #2B3554;
+
+ font-family: font_1;
+ 
+    font-size: 2rem;
+    /* padding-left: 14rem; */
+}
+
+
+.txtp1{
+
+    color: #2B3554;
+font-family: font_1;
+font-size: 1rem;
+
+}
+
+
+
+
+
+#secHalfpic2{
+
+    background-image: url('/static/cloning/img/sofabrown.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* 
+------------------------------
+-------------------------- */
 
 
 
